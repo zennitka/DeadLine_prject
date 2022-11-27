@@ -1,6 +1,98 @@
 body {
-  background-color: #8bc6ec;
-  background-image: radial-gradient(circle, #8bc6ec 0%, #9599e2 100%);
-  text-align: center;
-  margin-top: 222px;
+  background: #3494E6;
+  background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);
+  background: linear-gradient(to right, #EC6EAD, #3494E6);
+
+}
+.zag{
+  font-family: 'Rubik One', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #8AA9D6 33%, #0D61BC 66%, #0B2349);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+  margin: 20px auto;
+  margin-top:0;
+}
+.zag:hover{
+  font-family: 'Rubik One', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #8AA9D644 33%, #0D61BC 77%, #0B2349);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+}
+.zag1{
+  font-family: 'Rubik One', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, rgba(57, 80, 114, 0.27) 33%, #0D61BC 88%, #0B2349);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+  margin: 20px auto;
+  margin-top:auto;
+}
+.zag1:hover{
+  font-family: 'Rubik One', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #0B2349 44%, #0D61BC 77%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+}
+
+.art{
+  font-family: 'Rubik One', sans-serif;
+  font-size: 100%;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #2f4b79 33%, #273c54 66%, #34527c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  display: table;
+}
+#inp{
+  background: rgba(255, 255, 255, 0.2);
+  background-size: 200%;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  width: 30%;
+  min-height: 225px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  min-width: 250px;
+  font-family: 'Rubik One', sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #0B2349 44%, #0D61BC 77%, #8AA9D6);
+  -webkit-background-clip: text;
+  color: #0B2349;
+  border-radius: 10px;
+  transition: background-color  1s linear;
+}
+#inp:hover{
+  background-color: rgba(255,255,255,0.2);
+  background:radial-gradient(circle, rgba(142,137,150,0.2) 0%, rgba(255,255,255,0.2) 100%);
+
+}
+#stop{
+  display: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+input{
+  background: linear-gradient(45deg, #393064 44%, #5c0dbc 77%, #a08ad6);
+}
+button{
+  background: linear-gradient(45deg, #393064 44%, #5c0dbc 77%, #a08ad6);
 }
