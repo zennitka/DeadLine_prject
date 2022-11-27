@@ -1,14 +1,23 @@
 body {
+<<<<<<< Updated upstream
   background: #3494E6;
   background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);
   background: linear-gradient(to right, #EC6EAD, #3494E6);
 
+=======
+  background-color: #8bc6ec;
+  background-image: radial-gradient(circle, #8bc6ec 0%, #9599e2 100%);
+>>>>>>> Stashed changes
 }
 .zag{
   font-family: 'Rubik One', sans-serif;
   font-size: 50px;
   text-transform: uppercase;
+<<<<<<< Updated upstream
   background: linear-gradient(45deg, #8AA9D6 33%, #0D61BC 66%, #0B2349);
+=======
+  background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+>>>>>>> Stashed changes
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #0B2349;
@@ -20,6 +29,7 @@ body {
   font-family: 'Rubik One', sans-serif;
   font-size: 50px;
   text-transform: uppercase;
+<<<<<<< Updated upstream
   background: linear-gradient(45deg, #8AA9D644 33%, #0D61BC 77%, #0B2349);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -42,13 +52,18 @@ body {
   font-family: 'Rubik One', sans-serif;
   font-size: 15px;
   text-transform: uppercase;
+=======
+>>>>>>> Stashed changes
   background: linear-gradient(45deg, #0B2349 44%, #0D61BC 77%, #8AA9D6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: #0B2349;
   display: table;
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 .art{
   font-family: 'Rubik One', sans-serif;
   font-size: 100%;
@@ -59,6 +74,7 @@ body {
   color: #0B2349;
   display: table;
 }
+<<<<<<< Updated upstream
 #inp{
   background: rgba(255, 255, 255, 0.2);
   background-size: 200%;
@@ -67,10 +83,21 @@ body {
   flex-direction: column;
   width: 30%;
   min-height: 225px;
+=======
+.inp{
+  background: rgba(255, 255, 255, 0.2);
+  background-size: 50%;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  width: 25%;
+  min-height: 250px;
+>>>>>>> Stashed changes
   align-items: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+<<<<<<< Updated upstream
   min-width: 250px;
   font-family: 'Rubik One', sans-serif;
   text-transform: uppercase;
@@ -95,4 +122,6 @@ input{
 }
 button{
   background: linear-gradient(45deg, #393064 44%, #5c0dbc 77%, #a08ad6);
+=======
+>>>>>>> Stashed changes
 }
